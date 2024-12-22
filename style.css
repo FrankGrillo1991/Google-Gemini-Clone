@@ -62,3 +62,8 @@ body.hide-header .header {
     -webkit-text-fill-color: transparent;
 }
 
+.header .subtitle {
+    font-size: 2.6rem;
+    color: var(--subheading-color);
+}
+
