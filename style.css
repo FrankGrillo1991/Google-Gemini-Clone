@@ -260,3 +260,21 @@ body.hide-header .header {
     color: var(--placeholder-color);
 }
 
+.typing-area .icon {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary-color);
+    transition: 0.2s ease;
+}
+
+.typing-area .icon:hover {
+    background: var(--secondary-hover-color);
+}
+
