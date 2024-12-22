@@ -219,3 +219,12 @@ body.hide-header .header {
     }
 }
 
+.typing-area {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 1rem;
+    background: var(--primary-color);
+}
+
