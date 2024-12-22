@@ -180,3 +180,42 @@ body.hide-header .header {
     visibility: hidden;
 }
 
+.chat-list .message .icon.hide {
+    visibility: hidden;
+}
+
+.chat-list .message:not(.loading, .error):hover .icon:not(.hide) {
+    visibility: visible;
+}
+
+.chat-list .message .icon:hover {
+    background: var(--secondary-hover-color);
+}
+
+.chat-list .message .loading-indicator {
+    display: flex;
+}
+
+.chat-list .message .loading-indicator .loading-bar {
+    height: 11px;
+    width: 100%;
+    border-radius: 0.135rem;
+    background-position: -800px 0;
+    background: linear-gradient(to right, #4285f4, var(--primary-color), #4285f4);
+    animation: loading 3s linear infinite;
+}
+
+.chat-list .message .loading-indicator .loading-bar:last-child {
+    width: 70%;
+}
+
+@keyframes loading {
+    0% {
+        background-position: -800px 0;
+    }
+
+    100% {
+        background-position: 800px 0;
+    }
+}
+
