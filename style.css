@@ -36,3 +36,9 @@ body {
     max-width: 980px;
 }
 
+.header {
+    margin-top: 6vh;
+    padding: 1rem;
+    overflow-x: hidden;
+}
+
