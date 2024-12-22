@@ -31,3 +31,8 @@ body {
     background: var(--primary-color);
 }
 
+.header, .chat-list .message, .typing-form {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
