@@ -228,3 +228,8 @@ body.hide-header .header {
     background: var(--primary-color);
 }
 
+.typing-area :where(.typing-form, .action-buttons) {
+    display: flex;
+    gap: 0.75rem;
+}
+
