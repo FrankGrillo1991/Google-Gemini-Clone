@@ -116,3 +116,10 @@ body.hide-header .header {
     background: var(--primary-color);
 }
 
+.chat-list {
+    padding: 2rem 1rem 12rem;
+    max-height: 100vh;
+    overflow-y: auto;
+    scrollbar-color: #999 transparent;
+}
+
