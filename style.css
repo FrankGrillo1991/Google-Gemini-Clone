@@ -93,3 +93,12 @@ body.hide-header .header {
     transition: 0.2s ease;
 }
 
+.suggestion-list .suggestion:hover {
+    background: var(--secondary-hover-color);
+}
+
+.suggestion-list .suggestion :where(.text, .icon) {
+    font-weight: 400;
+    color: var(--text-color);
+}
+
