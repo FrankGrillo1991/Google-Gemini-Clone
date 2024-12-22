@@ -27,3 +27,7 @@
     --secondary-hover-color: #DBE1EA;
 }
 
+body {
+    background: var(--primary-color);
+}
+
