@@ -42,3 +42,8 @@ body {
     overflow-x: hidden;
 }
 
+body.hide-header .header {
+    margin: 0;
+    display: none;
+}
+
