@@ -67,3 +67,14 @@ body.hide-header .header {
     color: var(--subheading-color);
 }
 
+.suggestion-list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    gap: 1.25rem;
+    margin-top: 9.5vh;
+    overflow: hidden;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
